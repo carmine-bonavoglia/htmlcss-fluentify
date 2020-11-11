@@ -148,20 +148,44 @@ main{
   color: grey;
 }
 
-.sec-top{
+.sec-top .box-left{
   height: 300px;
-  /* Da cancellare */
-  background-color: purple;
-}
-
-.sec-center{
-  height: 300px;
-  /* Da cancellare */
+  width: calc(100% / 3);
   background-color: green;
 }
 
-.sec-bottom{
+.sec-top .box-center{
+  height: 300px;
+  width: calc(100% / 3);
+  background-color: white;
+}
+
+.sec-top .box-right{
+  height: 300px;
+  width: calc(100% / 3);
+  background-color: red;
+}
+
+.sec-center .img-left{
+  height: 300px;
+  width: calc(100% / 2);
+  background-color: lightblue;
+}
+
+.sec-center .text-right{
+  height: 300px;
+  width: calc(100% / 2);
+  background-color: blue;
+}
+
+.sec-bottom .sec-bottom-text{
   height: 150px;
-  /* Da cancellare */
-  background-color: violet;
+  width: calc(100% / 2);
+  background-color: blue;
+}
+
+.sec-bottom .sec-bottom-nav{
+  height: 150px;
+  width: calc(100% / 2);
+  background-color: lightblue;
 }
