@@ -14,32 +14,114 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
+/* Classi riutilizzabili */
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+.float-left{
+  float: left;
+}
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* Button */
+.btn{
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.btn-green{
+  background-color: #7cbb02;
+}
+
+.btn-large{
+  background-color: #7cbb02;
+  padding: 25px;
+}
+
+.btn-blue{
+  border: 1px solid white;
+}
+
+ul{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 14px;
+}
+
 /* Header */
 header{
-  /* Da cancellare */
-  background-color: blue;
+  background-color: #0d325a;
+  background-image: url('../img/background-header.png');
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: 110% 115%;
+  color: white;
 }
 
 .header-nav{
   height: 80px;
-  /* Da cancellare */
-  background-color: yellow;
+  line-height: 80px;
+}
+
+.header-nav li{
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.header-left{
+  width: 12%;
+  height: 80px;
+}
+
+.header-left img{
+  margin-top: 18px;
+}
+
+
+.header-center{
+  width: 48%;
+  height: 80px;
+  text-align: left;
+}
+
+.header-right{
+  width: 40%;
+  height: 80px;
+  text-align: right;
 }
 
 .jumbotron{
-  height: 420px;
-  /* Da cancellare */
-  background-color: pink;
+  height: 450px;
+  position: relative;
+}
+
+.jumbo-text{
+  position: absolute;
+  width: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.jumbo-text h1{
+  font-size: 54px;
+  margin-bottom: 60px;
 }
 
 /* Corpo principale */
 main{
   width: 100%;
-}
-
-.container{
-  width: 80%;
-  margin: auto;
 }
 
 .text-full{
