@@ -4,12 +4,6 @@
   box-sizing: border-box;
 }
 
-/*
-font-family: 'Roboto', sans-serif;
-
-font-family: 'Ubuntu', sans-serif;
-*/
-
 body{
   font-family: 'Roboto', sans-serif;
 }
@@ -40,13 +34,31 @@ body{
   background-color: #7cbb02;
 }
 
+.btn-green:hover{
+  border: 1px solid white;
+  background-color: #0d325a;
+  color: white;
+}
+
 .btn-large{
   background-color: #7cbb02;
   padding: 20px;
 }
 
+.btn-large:hover{
+  border: 1px solid white;
+  background-color: #0d325a;
+  color: white;
+}
+
 .btn-blue{
   border: 1px solid white;
+}
+
+.btn-blue:hover{
+  background-color: #7cbb02;
+  color: white;
+  border: none;
 }
 
 ul{
@@ -57,6 +69,13 @@ a{
   text-decoration: none;
   text-transform: uppercase;
   color: white;
+  font-size: 14px;
+}
+
+a:hover{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #7cbb02;
   font-size: 14px;
 }
 
@@ -250,6 +269,13 @@ main{
   text-decoration: underline;
   text-transform: none;
   color: blue;
+  font-size: 14px;
+}
+
+.text-right a:hover{
+  text-decoration: underline;
+  text-transform: none;
+  color: red;
   font-size: 14px;
 }
 
