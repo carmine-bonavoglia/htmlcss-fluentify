@@ -42,7 +42,7 @@ body{
 
 .btn-large{
   background-color: #7cbb02;
-  padding: 25px;
+  padding: 20px;
 }
 
 .btn-blue{
@@ -244,8 +244,6 @@ main{
 .sec-center .text-right{
   width: calc(100% / 2);
   text-align: left;
-  /* margin-right: 15%; */
-  /* line-height: 1.6; */
 }
 
 .sec-center .text-right a{
@@ -265,16 +263,48 @@ main{
   margin-bottom: 20px;
 }
 
+.text-right-meta p{
+  margin-bottom: 20px;
+}
 
 /* Bottom */
 .sec-bottom .sec-bottom-text{
-  height: 150px;
+  height: 120px;
+  line-height: 120px;
   width: calc(100% / 2);
-  background-color: #0d325a;
+  text-align: left;
+  background-color: lightgrey;
+}
+
+.sec-bottom-text h2{
+  padding-left: 10%;
+  font-size: 36px;
 }
 
 .sec-bottom .sec-bottom-nav{
-  height: 150px;
+  height: 120px;
+  line-height: 120px;
   width: calc(100% / 2);
-  background-color: lightblue;
+  background-color: lightgrey;
+  text-align: right;
+  padding-right: 5%;
+}
+
+span{
+  color: grey;
+  font-size: 20px;
+}
+
+.selection{
+  width: 25%;
+  height: 50px;
+  font-size: 20px;
+  margin: 0 20px;
+  cursor: pointer;
+  background-color: lightgrey;
+  border: none;
+  border-bottom: 2px solid grey;
+  color: grey;
+  padding: 10px;
+  appearance: none;
 }
