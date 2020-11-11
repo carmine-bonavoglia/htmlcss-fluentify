@@ -17,15 +17,50 @@ body{
 /* Header */
 header{
   /* Da cancellare */
-  height: 600px;
   background-color: blue;
+}
 
+.header-nav{
+  height: 80px;
+  /* Da cancellare */
+  background-color: yellow;
+}
 
+.jumbotron{
+  height: 420px;
+  /* Da cancellare */
+  background-color: pink;
 }
 
 /* Corpo principale */
 main{
+  width: 100%;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+.text-full{
+  height: 150px;
+  background-color: lightgrey;
+}
+
+.sec-top{
+  height: 300px;
   /* Da cancellare */
-  height: 700px;
-  background-color: grey;
+  background-color: purple;
+}
+
+.sec-center{
+  height: 300px;
+  /* Da cancellare */
+  background-color: green;
+}
+
+.sec-bottom{
+  height: 150px;
+  /* Da cancellare */
+  background-color: violet;
 }
