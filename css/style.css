@@ -269,8 +269,8 @@ main{
 
 /* Bottom */
 .sec-bottom .sec-bottom-text{
-  height: 120px;
-  line-height: 120px;
+  height: 150px;
+  line-height: 150px;
   width: calc(100% / 2);
   text-align: left;
   background-color: lightgrey;
@@ -282,8 +282,8 @@ main{
 }
 
 .sec-bottom .sec-bottom-nav{
-  height: 120px;
-  line-height: 120px;
+  height: 150px;
+  line-height: 150px;
   width: calc(100% / 2);
   background-color: lightgrey;
   text-align: right;
@@ -307,4 +307,11 @@ span{
   color: grey;
   padding: 10px;
   appearance: none;
+}
+
+/* Help */
+.help{
+  position: fixed;
+  bottom: 0;
+  right: 13%;
 }
