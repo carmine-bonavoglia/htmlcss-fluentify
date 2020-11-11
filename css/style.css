@@ -127,6 +127,25 @@ main{
 .text-full{
   height: 150px;
   background-color: lightgrey;
+  position: relative;
+}
+
+.text-full-middle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 2.2;
+  text-align: center;
+}
+
+.text-full-middle h2{
+  font-size: 28px;
+}
+
+.text-full-middle p{
+  font-size: 20px;
+  color: grey;
 }
 
 .sec-top{
